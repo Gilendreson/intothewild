@@ -199,10 +199,17 @@ i.menu-mobile{
     }
 
     .section-bg{
-background: #0C1407;
+        background-image: url("./img/main-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        width: 100%;
+        height: auto;
     }
+    
 
     section#Estatísticas {
         color: #fff;
-        ;
+    }
 
