@@ -23,6 +23,7 @@ navItem.forEach(item => {
     })
 });
 
+/* efeitos de animação [data-anime] */
 const item = document.querySelectorAll("[data-anime]");
     const animeScroll = () => {
         const windowTop = window.pageYOffset + window.innerHeight * 0.85 ;
@@ -38,11 +39,23 @@ const item = document.querySelectorAll("[data-anime]");
     };
     
 
- 
-
 animeScroll();
 
 window.addEventListener("scroll", ()=>{
     animeScroll();
 });
+
+/* Mensagem de envio efetuado */
+
+function enviar(){
+    alert("Mensagem enviada, responderemos em breve!");
+}
+
+window.onload = function(){
+    var btn = document.getElementById("btn-enviar");
+
+    btn.onclick = enviar;
+}
+
+
 

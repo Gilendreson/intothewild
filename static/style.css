@@ -259,3 +259,22 @@ i.menu-mobile{
         
     }
 
+    #footer {
+        padding: 15px;
+        color: #fff;
+        font-size: 14px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        z-index: 9998;
+        background-color: #0C1407;
+    }
+
+    @media (max-width: 1024px) {
+        #footer {
+            position: static;
+            width: auto;
+            padding: 15px 15px;
+        }
+
