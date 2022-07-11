@@ -213,3 +213,14 @@ i.menu-mobile{
         color: #fff;
     }
 
+
+    .promoção h4{      
+        text-decoration: line-through;
+        color: #6e6c6d;
+        
+    }
+
+    .promoção h3{      
+        color: #f4324a;
+    }
+
