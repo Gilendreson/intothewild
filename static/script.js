@@ -45,17 +45,32 @@ window.addEventListener("scroll", ()=>{
     animeScroll();
 });
 
-/* Mensagem de envio efetuado */
+
+
+
+
+/* Mensagem de envio*/
 
 function enviar(){
-    alert("Mensagem enviada, responderemos em breve!");
+    alert("Recebemos sua mensagem, em breve retornaremos o contato. Obrigado!");
 }
 
 window.onload = function(){
-    var btn = document.getElementById("btn-enviar");
+    var btn = document.getElementById("btn-submit");
 
     btn.onclick = enviar;
+};
+
+
+/* Mensagem de cadastro com sucesso */
+
+function cadastrar(){
+    alert("Cadastro realizado com sucesso, verifique seu email!");
 }
 
+window.onload = function(){
+    var btn2 = document.getElementById("btn-cadastrar");
 
+    btn2.onclick = cadastrar;
+}
 

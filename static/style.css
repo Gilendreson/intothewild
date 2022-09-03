@@ -491,3 +491,7 @@ a {
         color: inherit;
     }
 }
+
+.form#cadastro{
+    width: 100%;
+}
